@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Big Shoulders Text', cursive;
+    line-height: 1.6;
+    background-color: #F9F7F3; /* Light beige background */
+    color: #333; /* Dark grey text */
+}
+
+/* Navigation */
+.nav-mainpart {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    top: 0;
+    padding: 10px 0;
+}
+
+.nav-mainpart ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-mainpart li {
+    margin: 0 15px;
+}
+
+.nav-mainpart li a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9F7F3; /* Light beige text */
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-mainpart li a:hover {
+    color: #F7A072; /* Light orange on hover */
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #EDDEA4;
+    padding: 50px 30px;
+}
+
+.about-section .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section h2 {
+    text-align: center;
+    color: #0FA3B1;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
